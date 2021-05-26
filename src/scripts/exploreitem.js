@@ -16,7 +16,7 @@ const renderRestaurant = (restaurants) => {
     postExplore.innerHTML += `
               <article class="explore-item">
                 <h3 tabindex="0" class="explore-city">${ItemRestaurant.city}</h3>
-                <img class="explore-item-thumbnail" src=${ItemRestaurant.pictureId} alt="#" />
+                <img class="explore-item-thumbnail" src=${ItemRestaurant.pictureId} alt="${ItemRestaurant.name}" />
                 <div class="explore-item-content">
                   <h1 tabindex="0" class="explore-tittle">${ItemRestaurant.name}</h1>
                   <p tabindex="0" class="explore-rating">Rating : <span>${ItemRestaurant.rating}</span></p>
